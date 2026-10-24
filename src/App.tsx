@@ -122,20 +122,20 @@ function App() {
         />
       </div>
 
-      {/* Paper Crumple: Surat Rahasia & Cerita Lucu untuk Selvi Maulidatul Lidyawati */}
+      {/* Paper Crumple: Catatan Bersambung untuk Selvi Maulidatul Lidyawati */}
       <section className="paper-section">
         <div className="paper-section-badge">
-          <span className="badge-icon">📜</span>
-          <span>Surat Rahasia: Selvi Maulidatul Lidyawati</span>
+          <span className="badge-icon">✍️</span>
+          <span>Catatan untuk Selvi Maulidatul Lidyawati</span>
         </div>
-        <p className="paper-hint">Klik, tahan & seret untuk meremas kertas 3D!</p>
+        <p className="paper-hint">Klik, tahan & seret kertas untuk meremas 3D</p>
 
         <div className="paper-container">
           <PaperCrumple
             src="/selvi-story.png"
-            alt="Surat Rahasia & Cerita Lucu untuk Selvi Maulidatul Lidyawati"
+            alt="Catatan Lucu untuk Selvi Maulidatul Lidyawati"
             width={320}
-            height={420}
+            height={400}
             sceneHeight={520}
             releaseBehavior="restore"
             crumpleAmount={0.85}
@@ -145,12 +145,12 @@ function App() {
             foldSharpness={0.6}
             wrinkleDepth={0.65}
             creaseStrength={0.18}
-            paperColor="#f5eee4"
-            paperTexture={0.08}
+            paperColor="#ffffff"
+            paperTexture={0.06}
             lightIntensity={1.8}
             lightAngle={-35}
             shadow={true}
-            shadowOpacity={0.1}
+            shadowOpacity={0.08}
             draggable={true}
             dragRotation={10}
             dragRadius={180}
