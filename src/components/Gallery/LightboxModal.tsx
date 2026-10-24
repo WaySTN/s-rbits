@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Download, Sparkles } from 'lucide-react';
 import type { GalleryItem } from '../../data/galleryData';
+import './LightboxModal.css';
 
 interface LightboxModalProps {
   item: GalleryItem | null;
