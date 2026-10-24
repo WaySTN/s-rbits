@@ -213,8 +213,8 @@ export const DepthCarousel: React.FC<DepthCarouselProps> = ({
     const ro = new ResizeObserver(entries => {
       const w = entries[0].contentRect.width;
       const cfg = cfgRef.current;
-      const needed = cfg.cardWidth + Math.abs(cfg.spread) * 2 + 120;
-      scaleRef.current = clamp(w / needed, 0.4, 1);
+      const needed = Math.min(cfg.cardWidth + Math.abs(cfg.spread) * 1.1 + 40, 520);
+      scaleRef.current = clamp(w / needed, 0.82, 1.05);
       layout(posRef.current);
     });
     ro.observe(root);

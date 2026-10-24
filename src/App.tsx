@@ -71,38 +71,41 @@ function App() {
         <div className="ambient-grid" />
       </div>
 
-      {/* ASCII Text Header: SelviMaulid + love */}
+      {/* ASCII Text Header: Selvy ❤️ (Jelas & Tajam) */}
       <header className="ascii-header-container">
         <div className="ascii-text-box">
           <ASCIIText
-            text="SelviMaulid ❤️"
-            asciiFontSize={7}
+            text="Selvy ❤️"
+            asciiFontSize={5}
+            fontFamily="'Outfit', 'Inter', system-ui, sans-serif"
+            fontWeight={800}
+            textColor="#ffffff"
             colors={['#ff6188', '#fc9867', '#ffd866']}
-            textScale={0.85}
-            blocks={0.9}
-            waves={1}
-            waveSpeed={1}
-            chroma={1}
-            tilt={1}
-            hueShift={1}
-            scramble={0.6}
-            clickRipple
-            idle
-            interactive
+            textScale={1.2}
+            blocks={0.95}
+            waves={0.12}
+            waveSpeed={0.5}
+            chroma={0.15}
+            tilt={0.6}
+            hueShift={0.5}
+            scramble={0}
+            clickRipple={true}
+            idle={true}
+            interactive={true}
             theme="dark"
           />
         </div>
       </header>
 
-      {/* DepthCarousel Stage */}
+      {/* DepthCarousel Stage (Ukuran Album Diperbesar) */}
       <div className="carousel-stage-container">
         <DepthCarousel
           items={items}
-          cardWidth={300}
-          cardHeight={380}
-          radius={18}
+          cardWidth={340}
+          cardHeight={430}
+          radius={20}
           depth={220}
-          spread={90}
+          spread={85}
           tilt={22}
           tiltDirection="right"
           perspective={1400}
