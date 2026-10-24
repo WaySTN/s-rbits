@@ -3,6 +3,7 @@ import { DepthCarousel } from './components/DepthCarousel/DepthCarousel';
 import { ASCIIText } from './components/ASCIIText/ASCIIText';
 import { LightboxModal } from './components/Gallery/LightboxModal';
 import PaperCrumple from './components/PaperCrumple/PaperCrumple';
+import { MusicPlayer } from './components/MusicPlayer/MusicPlayer';
 import './App.css';
 
 // 5 images from public folder
@@ -151,6 +152,16 @@ function App() {
             returnToOrigin={true}
           />
         </div>
+      </section>
+
+      {/* Music Player Section (di bawah section kertas) */}
+      <section className="music-section">
+        <MusicPlayer
+          src="/music.mp3"
+          title="Clair de Lune (Suite Bergamasque)"
+          artist="Claude Debussy • Romantic Classical Piano"
+          coverImage={items[0].image}
+        />
       </section>
 
       {/* Lightbox Modal (buka ukuran penuh jika kartu diklik) */}

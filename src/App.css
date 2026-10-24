@@ -116,6 +116,18 @@
   justify-content: center;
 }
 
+/* Music Player Section (di bawah section kertas) */
+.music-section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 10px auto 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .app-wrapper {
@@ -134,6 +146,12 @@
   .paper-section {
     margin: 10px auto 30px;
   }
+
+  .music-section {
+    margin: 5px auto 40px;
+    padding: 0 10px;
+  }
 }
+
 
 
