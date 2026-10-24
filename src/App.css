@@ -7,8 +7,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 20px 20px 40px;
+  justify-content: flex-start;
+  padding: 24px 20px 60px;
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -94,10 +94,60 @@
   justify-content: center;
 }
 
+/* Paper Crumple Section (Rapi di bawah album) */
+.paper-section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper-section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 22px;
+  background: rgba(255, 97, 136, 0.08);
+  border: 1px solid rgba(255, 97, 136, 0.25);
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff85a2;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(255, 97, 136, 0.08);
+}
+
+.badge-icon {
+  font-size: 16px;
+}
+
+.paper-hint {
+  margin: 10px 0 16px;
+  font-size: 13.5px;
+  color: #94a3b8;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.paper-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .app-wrapper {
-    padding: 12px 10px 24px;
+    padding: 16px 12px 40px;
     justify-content: flex-start;
   }
 
@@ -108,4 +158,13 @@
   .carousel-stage-container {
     height: 480px;
   }
+
+  .paper-section {
+    margin: 24px auto 30px;
+  }
+
+  .paper-hint {
+    font-size: 12px;
+  }
 }
+

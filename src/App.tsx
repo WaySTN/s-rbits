@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { DepthCarousel } from './components/DepthCarousel/DepthCarousel';
 import { ASCIIText } from './components/ASCIIText/ASCIIText';
 import { LightboxModal } from './components/Gallery/LightboxModal';
+import PaperCrumple from './components/PaperCrumple/PaperCrumple';
 import './App.css';
 
 // 5 images from public folder
@@ -75,7 +76,7 @@ function App() {
       <header className="ascii-header-container">
         <div className="ascii-text-box">
           <ASCIIText
-            text="Selvy ❤️"
+            text="Selvyyy"
             asciiFontSize={5}
             fontFamily="'Outfit', 'Inter', system-ui, sans-serif"
             fontWeight={800}
@@ -120,6 +121,43 @@ function App() {
           onItemClick={(index) => setSelectedItem(items[index])}
         />
       </div>
+
+      {/* Paper Crumple: Surat Rahasia & Cerita Lucu untuk Selvi Maulidatul Lidyawati */}
+      <section className="paper-section">
+        <div className="paper-section-badge">
+          <span className="badge-icon">📜</span>
+          <span>Surat Rahasia: Selvi Maulidatul Lidyawati</span>
+        </div>
+        <p className="paper-hint">Klik, tahan & seret untuk meremas kertas 3D!</p>
+
+        <div className="paper-container">
+          <PaperCrumple
+            src="/selvi-story.png"
+            alt="Surat Rahasia & Cerita Lucu untuk Selvi Maulidatul Lidyawati"
+            width={320}
+            height={420}
+            sceneHeight={520}
+            releaseBehavior="restore"
+            crumpleAmount={0.85}
+            crumpleDuration={0.55}
+            releaseDuration={0.4}
+            foldCount={6}
+            foldSharpness={0.6}
+            wrinkleDepth={0.65}
+            creaseStrength={0.18}
+            paperColor="#f5eee4"
+            paperTexture={0.08}
+            lightIntensity={1.8}
+            lightAngle={-35}
+            shadow={true}
+            shadowOpacity={0.1}
+            draggable={true}
+            dragRotation={10}
+            dragRadius={180}
+            returnToOrigin={true}
+          />
+        </div>
+      </section>
 
       {/* Lightbox Modal (buka ukuran penuh jika kartu diklik) */}
       <LightboxModal
