@@ -122,14 +122,8 @@ function App() {
         />
       </div>
 
-      {/* Paper Crumple: Catatan Bersambung untuk Selvi Maulidatul Lidyawati */}
+      {/* Paper Crumple: Clean Kertas 3D */}
       <section className="paper-section">
-        <div className="paper-section-badge">
-          <span className="badge-icon">✍️</span>
-          <span>Catatan untuk Selvi Maulidatul Lidyawati</span>
-        </div>
-        <p className="paper-hint">Klik, tahan & seret kertas untuk meremas 3D</p>
-
         <div className="paper-container">
           <PaperCrumple
             src="/selvi-story.png"
