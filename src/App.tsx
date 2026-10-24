@@ -44,7 +44,8 @@ const items = [
     title: 'Selvi Maulid',
     category: 'Portrait',
     date: '25 Oct 2026',
-    desc: 'Soft natural glow filled with authentic charm.'
+    desc: 'Soft natural glow filled with authentic charm.',
+    objectPosition: '85% 25%'
   },
   {
     id: "5",

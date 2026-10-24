@@ -405,7 +405,13 @@ export const DepthCarousel: React.FC<DepthCarouselProps> = ({
             aria-hidden={active !== i}
             onClick={() => onCardClick(i)}
           >
-            <img className="depth-carousel__img" src={item.image} alt={item.alt || ''} draggable={false} />
+            <img
+              className="depth-carousel__img"
+              src={item.image}
+              alt={item.alt || ''}
+              draggable={false}
+              style={item.objectPosition ? { objectPosition: item.objectPosition } : undefined}
+            />
             <span
               className="depth-carousel__tint"
               ref={el => {
