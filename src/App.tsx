@@ -80,6 +80,39 @@ const items = [
     date: '25 Oct 2026',
     desc: 'Radiant and charming portrait with beautiful warm smile.',
     objectPosition: 'center 20%'
+  },
+  {
+    id: "8",
+    image: '/WhatsApp Image 2026-10-25 at 19.54.08.jpeg',
+    url: '/WhatsApp Image 2026-10-25 at 19.54.08.jpeg',
+    alt: 'Selvi Maulid',
+    title: 'Selvi Maulid',
+    category: 'Outdoor Moment',
+    date: '25 Oct 2026',
+    desc: 'Fun candid afternoon outdoor moments.',
+    objectPosition: '70% 45%'
+  },
+  {
+    id: "9",
+    image: '/WhatsApp Image 2026-10-25 at 20.58.32.jpeg',
+    url: '/WhatsApp Image 2026-10-25 at 20.58.32.jpeg',
+    alt: 'Selvi Maulid',
+    title: 'Selvi Maulid',
+    category: 'Portrait',
+    date: '25 Oct 2026',
+    desc: 'Sweet natural smile in batik and blue veil.',
+    objectPosition: 'center 30%'
+  },
+  {
+    id: "10",
+    image: '/WhatsApp Image 2026-10-25 at 21.11.51.jpeg',
+    url: '/WhatsApp Image 2026-10-25 at 21.11.51.jpeg',
+    alt: 'Selvi Maulid',
+    title: 'Selvi Maulid',
+    category: 'Candid Bedtime',
+    date: '25 Oct 2026',
+    desc: 'Pure, authentic, and endearing cheerful smile.',
+    objectPosition: 'center center'
   }
 ];
 
