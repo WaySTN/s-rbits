@@ -58,6 +58,28 @@ const items = [
     category: 'Candid',
     date: '25 Oct 2026',
     desc: 'Effortless and endearing smile captured in the moment.'
+  },
+  {
+    id: "6",
+    image: '/WhatsApp Image 2026-10-25 at 11.50.43 (1).jpeg',
+    url: '/WhatsApp Image 2026-10-25 at 11.50.43 (1).jpeg',
+    alt: 'Selvi Maulid',
+    title: 'Selvi Maulid',
+    category: 'Close-up',
+    date: '25 Oct 2026',
+    desc: 'Cozy and sweet close-up moment.',
+    objectPosition: 'center 40%'
+  },
+  {
+    id: "7",
+    image: '/WhatsApp Image 2026-10-25 at 11.50.43.jpeg',
+    url: '/WhatsApp Image 2026-10-25 at 11.50.43.jpeg',
+    alt: 'Selvi Maulid',
+    title: 'Selvi Maulid',
+    category: 'Special Moment',
+    date: '25 Oct 2026',
+    desc: 'Radiant and charming portrait with beautiful warm smile.',
+    objectPosition: 'center 20%'
   }
 ];
 
